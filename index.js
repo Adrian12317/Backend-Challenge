@@ -32,7 +32,7 @@ const resolvers = {
   City: {
     name: (parent) => parent.name + "," + parent.admin1 + "," + parent.country,
     score: (parent) => {
-      // I haven't time to do this also i dont know how to do it, i need to investigate
+      // I didn't have time to do it and I don't know how to do it either, I have to do some research.
       return "";
     }
   },
